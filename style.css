@@ -8,6 +8,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+    position: sticky;
+    top: 0;
 }
 
 .youtube-logo {
@@ -201,6 +203,43 @@
 .right-bar{
     width: 150px;
     height: 100vh;
-    background-color: #c20404;
+    border-left: 1px solid #c20404;
     margin-left: 160px;
+    padding-left: 20px;
+}
+
+.channel{
+    height: 30px;
+    margin-left: 30px;
+}
+
+.your-channel{
+    margin-top: 0;
+    font-family: sans-serif;
+    
+}
+
+.videos{
+    display: flex;
+    width: 100vw;    /* I am trying 100vw for screen width, I am trying to remove scroll bar
+                           */
+}
+.sub-contianer{
+    margin-left: 60px;
+}
+
+.my-video{
+    width: 450px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.title{
+    width: 250px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
 }
